@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        
+        <record id="xxx" model="ir.ui.view">
+            <field name="amount_max" type="xml">
+                <xpath expr="//field[@name='name']" position=after>
+
+                </xpath>
+
+
+            </field>
+
+                <search string="Currency Rates">
+                    <field name="name" string="Date"/>
+                </search>
+            </field>
+        </record>
     </data>
 </odoo>
